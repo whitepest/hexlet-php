@@ -1,9 +1,12 @@
 {
     "name": "koz/hexlet-php",
     "autoload": {
-        "psr-4": {
-            "Koz\\HexletPhp\\": "src/"
-        }
+      "psr-4": {
+        "Koz\\HexletPhp\\": "src/"
+      },
+      "files": [
+        "src/Runner.php"
+      ]
     },
     "authors": [
         {
