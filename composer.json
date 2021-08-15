@@ -1,8 +1,5 @@
 {
     "name": "koz/hexlet-php",
-    "require": {
-        "sebastian/phpdcd": "^1.0"
-    },
     "autoload": {
         "psr-4": {
             "Koz\\HexletPhp\\": "src/"
@@ -13,5 +10,8 @@
             "name": "koz",
             "email": "silverkin7@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "tightenco/collect": "^8.34"
+    }
 }
