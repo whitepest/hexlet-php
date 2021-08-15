@@ -1,0 +1,17 @@
+{
+    "name": "koz/hexlet-php",
+    "require": {
+        "sebastian/phpdcd": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Koz\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "koz",
+            "email": "silverkin7@gmail.com"
+        }
+    ]
+}
